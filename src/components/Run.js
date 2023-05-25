@@ -23,7 +23,7 @@ const Run = () => {
           exit={{ opacity: 0, x: -100 }}
           transition={transition}
         >
-          2. Navigate to the folder "weather_app" and open it.
+          2. Navigate to the folder "Weather-App" and open it.
         </motion.li>
         <motion.li
           initial={{ opacity: 0, x: -100 }}
@@ -39,7 +39,7 @@ const Run = () => {
           exit={{ opacity: 0, x: -100 }}
           transition={transition}
         >
-          4. Install the dependencies "react-router-dom", "framer-motion",
+          4. Install the dependencies "react-scripts", "react-router-dom", "framer-motion",
           "axios", any other based on the requirement.
         </motion.li>
         <motion.li
@@ -68,7 +68,7 @@ const Run = () => {
           mobile (on the same network only) using the link in the terminal.
         </motion.li>
         <li>
-          P.S. - If any minor warnings occur, please avoid them and restart the
+          P.S. - If any minor warnings occur, please ignore them and restart the
           project.
         </li>
       </ol>
