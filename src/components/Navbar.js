@@ -26,6 +26,7 @@ const Navbar = () => {
           :
           <div className="nav-buttons flex gap-x-16 text-center py-4">
             <a href="/" className='text-lg' onClick={()=>setMenu(false)}>Home</a>
+            <a href="/Weather-App" className='text-lg' onClick={()=>setMenu(false)}>Home</a>
             <a href="/about" className='text-lg' onClick={()=>setMenu(false)}>About Project</a>
             <a href="/run" className='text-lg' onClick={()=>setMenu(false)}>How to Run</a>
             <a href="/contact" className='text-lg' onClick={()=>setMenu(false)}>Contact</a>
