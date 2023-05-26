@@ -84,7 +84,7 @@ const Main = () => {
       .catch((err) => {
         console.log("err", err);
         setRet(false);
-      ` SetLoading(false)
+        SetLoading(false)
       });
   };
 
