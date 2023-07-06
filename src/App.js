@@ -17,11 +17,11 @@ function App() {
       <Navbar></Navbar> 
       <Router>
         <Routes>
-        <Route exact path='/' element={< Main />}></Route> 
-        <Route exact path='/Weather_App' element={< Main />}></Route> 
-        <Route exact path='/contact' element={< Contact />}></Route>
-        <Route exact path='/run' element={< Run />}></Route>
-        <Route exact path='/about' element={< About />}></Route>  
+        <Route exact path='/Weather-App/' element={< Main />}></Route> 
+        <Route exact path='/Weather-App/' element={< Main />}></Route> 
+        <Route exact path='/Weather-App/contact' element={< Contact />}></Route>
+        <Route exact path='/Weather-App/run' element={< Run />}></Route>
+        <Route exact path='/Weather-App/about' element={< About />}></Route>  
         {/* <Main></Main>
         <Run></Run> */}
         </Routes>
